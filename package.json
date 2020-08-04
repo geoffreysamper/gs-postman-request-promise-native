@@ -1,34 +1,27 @@
 {
   "name": "gs-postman-request-promise-native",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "native promise for postman-request  ",
   "keywords": [
     "postman-request"
   ],
   "main": "./lib/rp.js",
   "scripts": {
-    "publish-please": "publish-please",
-    "prepublish": "publish-please guard",
-    "test": "echo test"
+    "publish-please": "publish-please"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/request/gs-postman-request-promise-native.git"
+    "url": "git+https://github.com/geoffreysamper/gs-postman-request-promise-native.git"
   },
   "dependencies": {
-    "postman-request": "^2.88.1-postman.24",
-    "request-promise-core": "1.1.4",
+    "gs-postman-request-promise-core": "1.0.0",
     "stealthy-require": "^1.1.1",
     "tough-cookie": "^2.3.3"
   },
+  "peerDependencies": {
+    "postman-request": "^2.88.1-postman.24"
+  },
   "devDependencies": {
-    "body-parser": "~1.15.2",
-    "chai": "~3.5.0",
-    "chalk": "~1.1.3",
-    "gulp": "^4.0.2",
-    "lodash": "~4.13.1",
-    "publish-please": "^2.1.4",
-    "rimraf": "~2.5.3",
-    "run-sequence": "~1.2.2"
+    "publish-please": "^5.5.1"
   }
 }
